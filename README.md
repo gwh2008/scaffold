@@ -11,7 +11,7 @@ Guns项目代码简洁,注释丰富,上手容易,同时Guns包含许多基础模
 3.[mybatis-plus](http://git.oschina.net/baomidou/mybatis-plus)
 
 ##技术讨论
-如果对项目有任何疑问或者建议,欢迎加入Guns技术交流群:254550081(加之前请先看一遍readme文档)
+如果对项目有任何疑问或者建议,欢迎加入Guns技术交流群:600485702(加之前请先看一遍readme文档)
 
 ## V2.2更新日志
 1. 菜单树由最多二级菜单拓展为三级菜单
@@ -250,14 +250,17 @@ map+warpper方式即为把controller层的返回结果使用BeanKit工具类把�
 ##swagger api管理使用说明
 swagger会管理所有包含@ApiOperation注解的控制器方法，同时，可利用@ApiImplicitParams注解标记接口中的参数，具体用法请参考CodeController类中的用法。
 ```
- @ApiOperation("生成代码")
- @ApiImplicitParams({
-         @ApiImplicitParam(name = "moduleName", value = "模块名称", required = true, dataType = "String"),
-         @ApiImplicitParam(name = "bizChName", value = "业务名称", required = true, dataType = "String"),
-         @ApiImplicitParam(name = "bizEnName", value = "业务英文名称", required = true, dataType = "String"),
-         @ApiImplicitParam(name = "path", value = "项目生成类路径", required = true, dataType = "String")
- })
- @RequestMapping(value = "/generate", method = RequestMethod.POST)
+ @ApiOperation(value = "测试接口",notes = "测试接口")
+    @ApiResponse(code = 200, message = "成功！")
+    @ApiImplicitParam(name = "str1", value = "参数", required = true, dataType = "String",paramType = "form")
+    @RequestMapping(value = "/test", method = RequestMethod.POST)
+    @ResponseBody
+    @Permission(Const.ADMIN_NAME)
+    public String test(@RequestParam("str1")String str1) {
+
+        String str = str1;
+        return str1 == null?"参数为空":str1;
+    }
 ```
 
 ##常见问题答疑
@@ -265,19 +268,4 @@ swagger会管理所有包含@ApiOperation注解的控制器方法，同时，可
 2. 为何既有dao,又有mapper: mapper是mybatis-plus自动生成的,里边有许多mybatis-plus增强的方法,dao是自己写的业务,mybatis-plus自动生成代码时会覆盖mapper,所以就把自己写的dao分开了,生成代码的时候不影响
 3. 为何分页是前端实现:部分页面因为数据量比较少,就直接用客户端分页了,日志页面的分页是采用服务端分页的,如果其他业务有特别需要,可以参考日志的写法
 
-##效果图
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0604/194616_36ed7fd6_551203.png "在这里输入图片标题")
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0604/194623_a0761bc3_551203.png "在这里输入图片标题")
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0604/194630_640dfd35_551203.png "在这里输入图片标题")
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0526/104015_bdb14c74_551203.png "在这里输入图片标题")
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0516/000735_b83c5c46_551203.png "在这里输入图片标题")
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0526/103734_bd3e8f6b_551203.png "在这里输入图片标题")
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0604/194539_f9bb482a_551203.png "在这里输入图片标题")
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0526/103746_6b4129ed_551203.png "在这里输入图片标题")
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0526/103755_7729b916_551203.png "在这里输入图片标题")
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0526/103801_b8216865_551203.png "在这里输入图片标题")
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0526/103807_20bfb868_551203.png "在这里输入图片标题")
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0526/103814_67e078bb_551203.png "在这里输入图片标题")
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0526/103822_58fd5d91_551203.png "在这里输入图片标题")
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0526/103827_d6218c74_551203.png "在这里输入图片标题")
 
