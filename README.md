@@ -26,7 +26,7 @@ Guns项目代码简洁,注释丰富,上手容易,同时Guns包含许多基础模
 10. 修复没有角色的用户登录报错的bug
 
 ### 如果不喜欢SpringBoot?
-如果您不喜欢用SpringBoot,或者您是一个spring初学者,您可以切换到[Guns V1.0(点击这里)](http://git.oschina.net/naan1993/guns/tree/v1.0/)分支,
+如果您不喜欢用SpringBoot,或者您是一个spring初学者,您可以切换到[Guns V1.0(点击这里)](http://git.oschina.net/gwh_2014/gunsnospringboot)分支,
 Guns V1.0基于spring的java bean方式配置项目,同样简洁易上手.
 
 注:SpringBoot强大的Auto Config和统一的依赖管理极大的简化了spring配置和maven依赖,在不了解其都配置了哪些东西的基础上可能会对初学者有一定困扰,所以建议初学者先看Guns V1.0
@@ -250,14 +250,17 @@ map+warpper方式即为把controller层的返回结果使用BeanKit工具类把�
 ##swagger api管理使用说明
 swagger会管理所有包含@ApiOperation注解的控制器方法，同时，可利用@ApiImplicitParams注解标记接口中的参数，具体用法请参考CodeController类中的用法。
 ```
- @ApiOperation("生成代码")
- @ApiImplicitParams({
-         @ApiImplicitParam(name = "moduleName", value = "模块名称", required = true, dataType = "String"),
-         @ApiImplicitParam(name = "bizChName", value = "业务名称", required = true, dataType = "String"),
-         @ApiImplicitParam(name = "bizEnName", value = "业务英文名称", required = true, dataType = "String"),
-         @ApiImplicitParam(name = "path", value = "项目生成类路径", required = true, dataType = "String")
- })
- @RequestMapping(value = "/generate", method = RequestMethod.POST)
+   @ApiOperation(value = "测试接口",notes = "测试接口")
+    @ApiResponse(code = 200, message = "成功！")
+    @ApiImplicitParam(name = "str1", value = "参数", required = true, dataType = "String",paramType = "form")
+    @RequestMapping(value = "/test", method = RequestMethod.POST)
+    @ResponseBody
+    @Permission(Const.ADMIN_NAME)
+    public String test(@RequestParam("str1")String str1) {
+
+        String str = str1;
+        return str1 == null?"参数为空":str1;
+    }
 ```
 
 ##常见问题答疑
