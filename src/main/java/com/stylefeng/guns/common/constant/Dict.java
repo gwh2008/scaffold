@@ -43,4 +43,9 @@ public interface Dict {
      */
     String NoticeMap = "NoticeMap";
 
+    /**
+     * e代驾管理业务的字典
+     */
+    String EDrivingMap = "EDrivingMap";
+
 }

@@ -14,7 +14,11 @@ var EDriving = {
 EDriving.initColumn = function () {
     return [
         {field: 'selectItem', radio: true},
-        {title: 'id', field: 'id', visible: false, align: 'center', valign: 'middle'}
+        {title: 'id', field: 'id', visible: false, align: 'center', valign: 'middle'},
+        {title: 'e标题', field: 'title', align: 'center', valign: 'middle', sortable: true},
+        {title: 'e内容', field: 'content', align: 'center', valign: 'middle', sortable: true},
+        {title: '发布者', field: 'createrName', align: 'center', valign: 'middle', sortable: true},
+        {title: '创建时间', field: 'createtime', align: 'center', valign: 'middle', sortable: true}
     ];
 };
 
@@ -45,6 +49,23 @@ EDriving.openAddEDriving = function () {
         content: Feng.ctxPath + '/eDriving/eDriving_add'
     });
     this.layerIndex = index;
+};
+
+/**
+ * 点击修改e代驾
+ */
+EDriving.openEditEDriving = function () {
+    if (this.check()) {
+        var index = layer.open({
+            type: 2,
+            title: '修改e代驾',
+            area: ['800px', '420px'], //宽高
+            fix: false, //不固定
+            maxmin: true,
+            content: Feng.ctxPath + '/eDriving/eDriving_update/' + this.seItem.id
+        });
+        this.layerIndex = index;
+    }
 };
 
 /**

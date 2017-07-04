@@ -34,7 +34,7 @@ public class MyBatisPlusGenerator {
         gc.setEnableCache(false);// XML 二级缓存
         gc.setBaseResultMap(true);// XML ResultMap
         gc.setBaseColumnList(false);// XML columList
-        gc.setAuthor("stylefeng");
+        gc.setAuthor("gaowh");
         mpg.setGlobalConfig(gc);
 
         // 数据源配置

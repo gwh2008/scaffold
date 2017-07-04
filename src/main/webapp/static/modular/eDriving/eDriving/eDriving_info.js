@@ -2,7 +2,23 @@
  * 初始化e代驾详情对话框
  */
 var EDrivingInfoDlg = {
-    eDrivingInfoData : {}
+    eDrivingInfoData : {},
+    validateFields: {
+        title: {
+            validators: {
+                notEmpty: {
+                    message: '标题不能为空'
+                }
+            }
+        },
+        content: {
+            validators: {
+                notEmpty: {
+                    message: '内容不能为空'
+                }
+            }
+        }
+    }
 };
 
 /**
@@ -44,7 +60,16 @@ EDrivingInfoDlg.close = function() {
  * 收集数据
  */
 EDrivingInfoDlg.collectData = function() {
-    this.set('id');
+    this.set('id').set('title').set('content');
+}
+
+/**
+ * 验证数据是否为空
+ */
+EDrivingInfoDlg.validate = function () {
+    $('#eDrivingInfoForm').data("bootstrapValidator").resetForm();
+    $('#eDrivingInfoForm').bootstrapValidator('validate');
+    return $("#eDrivingInfoForm").data('bootstrapValidator').isValid();
 }
 
 /**
@@ -54,6 +79,10 @@ EDrivingInfoDlg.addSubmit = function() {
 
     this.clearData();
     this.collectData();
+
+    if (!this.validate()) {
+        return;
+    }
 
     //提交信息
     var ajax = new $ax(Feng.ctxPath + "/eDriving/add", function(data){
@@ -75,6 +104,9 @@ EDrivingInfoDlg.editSubmit = function() {
     this.clearData();
     this.collectData();
 
+    if (!this.validate()) {
+        return;
+    }
     //提交信息
     var ajax = new $ax(Feng.ctxPath + "/eDriving/update", function(data){
         Feng.success("修改成功!");
@@ -88,5 +120,5 @@ EDrivingInfoDlg.editSubmit = function() {
 }
 
 $(function() {
-
+    Feng.initValidator("eDrivingInfoForm", EDrivingInfoDlg.validateFields);
 });

@@ -32,6 +32,8 @@ public class ConstantFactory implements IConstantFactory {
     private UserMapper userMapper = SpringContextHolder.getBean(UserMapper.class);
     private MenuMapper menuMapper = SpringContextHolder.getBean(MenuMapper.class);
     private NoticeMapper noticeMapper = SpringContextHolder.getBean(NoticeMapper.class);
+    private EDrivingMapper eDrivingMapper = SpringContextHolder.getBean(EDrivingMapper.class);
+
 
     public static IConstantFactory me() {
         return SpringContextHolder.getBean("constantFactory");
@@ -212,6 +214,24 @@ public class ConstantFactory implements IConstantFactory {
             }
         }
     }
+
+    /**
+     * 获取eDriving标题
+     */
+    @Override
+    public  String getEDrivingTitle(Integer eDrivingId){
+        if (ToolUtil.isEmpty(eDrivingId)) {
+            return "";
+        } else {
+            EDriving eDriving = eDrivingMapper.selectById(eDrivingId);
+            if (eDriving == null) {
+                return "";
+            } else {
+                return eDriving.getTitle();
+            }
+        }
+    }
+
 
     /**
      * 根据字典名称和字典中的值获取对应的名称

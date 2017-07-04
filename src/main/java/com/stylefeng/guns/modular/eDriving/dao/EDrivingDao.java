@@ -1,5 +1,10 @@
 package com.stylefeng.guns.modular.eDriving.dao;
 
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
+import java.util.Map;
+
 /**
  * e代驾Dao
  *
@@ -8,5 +13,5 @@ package com.stylefeng.guns.modular.eDriving.dao;
  */
 public interface EDrivingDao {
 
-
+    List<Map<String, Object>> list(@Param("condition") String condition);
 }

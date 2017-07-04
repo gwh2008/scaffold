@@ -81,6 +81,12 @@ public interface IConstantFactory {
     String getNoticeTitle(Integer dictId);
 
     /**
+     * 获取e代驾标题
+     */
+    String getEDrivingTitle(Integer eDrivingId);
+
+
+    /**
      * 根据字典名称和字典中的值获取对应的名称
      */
     String getDictsByName(String name, Integer val);

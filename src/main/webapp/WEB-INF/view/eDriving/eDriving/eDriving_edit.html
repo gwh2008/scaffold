@@ -1,17 +1,29 @@
 @layout("/common/_container.html"){
 <div class="ibox float-e-margins">
     <div class="ibox-content">
-        <div class="form-horizontal">
+        <div class="form-horizontal" id="eDrivingInfoForm">
 
             <input type="hidden" id="id" value="${eDriving.id}">
 
             <div class="row">
                 <div class="col-sm-6 b-r">
+                    <div class="form-group">
+                        <label class="col-sm-1 control-label">标题</label>
+                        <div class="col-sm-11">
+                            <input class="form-control" id="title" name="title" type="text" value="${eDriving.title}">
 
+                        </div>
+                    </div>
                 </div>
 
                 <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="col-sm-1 control-label">内容</label>
+                        <div class="col-sm-11">
+                            <input class="form-control" id="content" name="content" type="text" value="${eDriving.content}">
 
+                        </div>
+                    </div>
                 </div>
             </div>
 

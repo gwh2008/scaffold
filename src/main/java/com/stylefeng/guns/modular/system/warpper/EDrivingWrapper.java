@@ -6,14 +6,14 @@ import com.stylefeng.guns.common.warpper.BaseControllerWarpper;
 import java.util.Map;
 
 /**
- * 通知列表的包装
+ * e代驾列表的包装
  *
  * @author gaowh
- * @date 2017年4月25日 18:10:31
+ * @date 2017年7月3日 18:10:31
  */
-public class NoticeWrapper extends BaseControllerWarpper {
+public class EDrivingWrapper extends BaseControllerWarpper {
 
-    public NoticeWrapper(Object list) {
+    public EDrivingWrapper(Object list) {
         super(list);
     }
 
