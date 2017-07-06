@@ -263,3 +263,7 @@ swagger会管理所有包含@ApiOperation注解的控制器方法，同时，可
 1. 为何有的业务没有service层: 部分业务比较简单,所以就没写service层,写service是为了让复杂业务更有条理,更清晰.
 2. 为何既有dao,又有mapper: mapper是mybatis-plus自动生成的,里边有许多mybatis-plus增强的方法,dao是自己写的业务,mybatis-plus自动生成代码时会覆盖mapper,所以就把自己写的dao分开了,生成代码的时候不影响
 3. 为何分页是前端实现:部分页面因为数据量比较少,就直接用客户端分页了,日志页面的分页是采用服务端分页的,如果其他业务有特别需要,可以参考日志的写法
+
+##附图一张
+![Image text](https://raw.githubusercontent.com/gaowenhui/img/master/scaffold.png)
+
