@@ -3,13 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.stylefeng</groupId>
-    <artifactId>guns</artifactId>
+    <groupId>com.gaowh</groupId>
+    <artifactId>scaffold</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>guns</name>
-    <description>guns 的spring boot版本</description>
+    <name>scaffold</name>
+    <description>scaffold 的spring boot版本</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

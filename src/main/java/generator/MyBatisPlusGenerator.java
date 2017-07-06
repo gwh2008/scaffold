@@ -28,7 +28,7 @@ public class MyBatisPlusGenerator {
 
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
-        gc.setOutputDir("G:\\workspace\\guns\\src\\main\\java");//这里写你自己的java目录
+        gc.setOutputDir("G:\\workspace\\scaffold\\src\\main\\java");//这里写你自己的java目录
         gc.setFileOverride(true);//是否覆盖
         gc.setActiveRecord(true);
         gc.setEnableCache(false);// XML 二级缓存
@@ -50,7 +50,7 @@ public class MyBatisPlusGenerator {
         dsc.setDriverName("com.mysql.jdbc.Driver");
         dsc.setUsername("root");
         dsc.setPassword("");
-        dsc.setUrl("jdbc:mysql://127.0.0.1:3306/guns?characterEncoding=utf8");
+        dsc.setUrl("jdbc:mysql://127.0.0.1:3306/scaffold?characterEncoding=utf8");
         mpg.setDataSource(dsc);
 
         // 策略配置
@@ -62,9 +62,9 @@ public class MyBatisPlusGenerator {
         // 包配置
         PackageConfig pc = new PackageConfig();
         pc.setParent(null);
-        pc.setEntity("com.stylefeng.guns.common.persistence.model");
-        pc.setMapper("com.stylefeng.guns.common.persistence.dao");
-        pc.setXml("com.stylefeng.guns.common.persistence.dao.mapping");
+        pc.setEntity("com.gaowh.scaffold.common.persistence.model");
+        pc.setMapper("com.gaowh.scaffold.common.persistence.dao");
+        pc.setXml("com.gaowh.scaffold.common.persistence.dao.mapping");
         pc.setService("TTT");       //本项目没用，生成之后删掉
         pc.setServiceImpl("TTT");   //本项目没用，生成之后删掉
         pc.setController("TTT");    //本项目没用，生成之后删掉

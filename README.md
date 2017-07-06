@@ -1,23 +1,22 @@
-#Guns V2.2
-新版Guns基于SpringBoot全面升级,完美整合springmvc + shiro + mybatis-plus + beetl!
+#scaffold V2.2
+新版scaffold基于SpringBoot全面升级,完美整合springmvc + shiro + mybatis-plus + beetl!
 
 在不用写xml配置(V1.0)的基础上进一步简化项目配置,让您更专注于业务开发!抛弃传统spring xml的配置方式,利用springboot + javabean方式配置spring,极大简化了pom.xml配置和spring配置.
 
-Guns项目代码简洁,注释丰富,上手容易,同时Guns包含许多基础模块(用户管理,角色管理,部门管理,字典管理等10个模块),可以直接作为一个后台管理系统的脚手架.
+scaffold项目代码简洁,注释丰富,上手容易,同时scaffold包含许多基础模块(用户管理,角色管理,部门管理,字典管理等10个模块),可以直接作为一个后台管理系统的脚手架.
 
 ## 鸣谢
-1.[SpringBlade](http://git.oschina.net/smallc/SpringBlade)
-2.[beetl](http://ibeetl.com/)
-3.[mybatis-plus](http://git.oschina.net/baomidou/mybatis-plus)
+1.[beetl](http://ibeetl.com/)
+2.[mybatis-plus](http://git.oschina.net/baomidou/mybatis-plus)
 
 ##技术讨论
-如果对项目有任何疑问或者建议,欢迎加入Guns技术交流群:600485702(加之前请先看一遍readme文档)
+如果对项目有任何疑问或者建议,欢迎加入scaffold技术交流群:600485702(加之前请先看一遍readme文档)
 
 ## V2.2更新日志
 1. 菜单树由最多二级菜单拓展为三级菜单
 2. 用户管理页面新增部门树，方便查询部门人员信息
 3. 完善系统的session机制，增加session失效时间的跳转
-4. 完善Guns代码生成功能,新增Dao和Service，并且所有的生成都是可选的
+4. 完善scaffold代码生成功能,新增Dao和Service，并且所有的生成都是可选的
 5. 删除信息增加提示框
 6. 删除父菜单可以删除所有子菜单
 7. 新增对页面的js验证，所用框架为bootstrap validator
@@ -25,11 +24,8 @@ Guns项目代码简洁,注释丰富,上手容易,同时Guns包含许多基础模
 9. 修复新增含有0值的字典，查询会出现多条的bug
 10. 修复没有角色的用户登录报错的bug
 
-### 如果不喜欢SpringBoot?
-如果您不喜欢用SpringBoot,或者您是一个spring初学者,您可以切换到[Guns V1.0(点击这里)](http://git.oschina.net/gwh_2014/gunsnospringboot)分支,
-Guns V1.0基于spring的java bean方式配置项目,同样简洁易上手.
 
-注:SpringBoot强大的Auto Config和统一的依赖管理极大的简化了spring配置和maven依赖,在不了解其都配置了哪些东西的基础上可能会对初学者有一定困扰,所以建议初学者先看Guns V1.0
+注:SpringBoot强大的Auto Config和统一的依赖管理极大的简化了spring配置和maven依赖,在不了解其都配置了哪些东西的基础上可能会对初学者有一定困扰,所以建议初学者先看scaffold V1.0
 
 ##功能简介
 1. 用户管理
@@ -44,21 +40,21 @@ Guns V1.0基于spring的java bean方式配置项目,同样简洁易上手.
 10. 代码生成
 
 ##使用说明
-1. 导入sql/guns.sql文件到mysql数据库
+1. 导入sql/scaffold.sql文件到mysql数据库
 2. 以maven方式导入项目到ide
 3. 修改application.yml中的数据库相关的配置,改为您本机的数据库配置
 4. 启动项目,管理员账号admin/密码111111
 
 ###如何启动项目
-Guns目前支持三种启动方式:
-1. 在IDE里运行GunsApplication类中的main方法启动
+scaffold目前支持三种启动方式:
+1. 在IDE里运行ScaffoldApplication类中的main方法启动
 2. 执行如下maven命令
 ```
 clean package -Dmaven.test.skip=true
 ```
-并从target目录中找到guns-1.0.0-SNAPSHOT.jar,并在jar包的目录下执行如下java命令
+并从target目录中找到scaffold-1.0.0-SNAPSHOT.jar,并在jar包的目录下执行如下java命令
 ```
-java -jar guns-1.0.0-SNAPSHOT.jar
+java -jar scaffold-1.0.0-SNAPSHOT.jar
 ```
 3. 修改pom.xml中如下片段
 ```
@@ -101,25 +97,25 @@ java -jar guns-1.0.0-SNAPSHOT.jar
 │  │  
 │  ├─java
 │  │   │
-│  │   ├─com.stylefeng.guns----------------项目主代码
+│  │   ├─com.gaowh.scaffold----------------项目主代码
 │  │   │          │
 │  │   │          ├─common----------------项目公用的部分(业务中经常调用的类,例如常量,异常,实体,注解,分页类,节点类)
 │  │   │          │
 │  │   │          ├─config----------------项目配置代码(例如mybtais-plus配置,ehcache配置等)
 │  │   │          │
-│  │   │          ├─core----------------项目运行的核心依靠(例如aop日志记录,拦截器,监听器,guns模板引擎,shiro权限检查等)
+│  │   │          ├─core----------------项目运行的核心依靠(例如aop日志记录,拦截器,监听器,scaffold模板引擎,shiro权限检查等)
 │  │   │          │
 │  │   │          ├─modular----------------项目业务代码
 │  │   │          │
-│  │   │          ├─GunsApplication类----------------以main方法启动springboot的类
+│  │   │          ├─scaffoldApplication类----------------以main方法启动springboot的类
 │  │   │          │
-│  │   │          └─GunsServletInitializer类----------------用servlet容器启动springboot的核心类
+│  │   │          └─scaffoldServletInitializer类----------------用servlet容器启动springboot的核心类
 │  │   │
 │  │   └─generator----------------mybatis-plus Entity生成器
 │  │
 │  ├─resources----------------项目资源文件
 │  │     │
-│  │     ├─gunsTemplate----------------guns代码生成模板
+│  │     ├─scaffoldTemplate----------------scaffold代码生成模板
 │  │     │ 
 │  │     ├─application.yml----------------springboot项目配置
 │  │     │ 
@@ -136,17 +132,17 @@ java -jar guns-1.0.0-SNAPSHOT.jar
 3. 利用beetl模板引擎对前台页面进行封装和拆分，使臃肿的html代码变得简洁，更加易维护。
 4. 对常用js插件进行二次封装，使js代码变得简洁，更加易维护，具体请见webapp/static/js/common文件夹内js代码。
 5. 利用ehcache框架对经常调用的查询进行缓存，提升运行速度，具体请见ConstantFactory类中@Cacheable标记的方法。
-6. controller层采用map + warpper方式的返回结果，返回给前端更为灵活的数据，具体参见com.stylefeng.guns.modular.system.warpper包中具体类。
+6. controller层采用map + warpper方式的返回结果，返回给前端更为灵活的数据，具体参见com.gaowh.scaffold.modular.system.warpper包中具体类。
 7. 防止XSS攻击,通过XssFilter类对所有的输入的非法字符串进行过滤以及替换。
 8. 简单可用的代码生成体系，通过SimpleTemplateEngine可生成带有主页跳转和增删改查的通用控制器、html页面以及相关的js，还可以生成Service和Dao，并且这些生成项都为可选的，通过ContextConfig下的一些列xxxSwitch开关,可灵活控制生成模板代码，让您把时间放在真正的业务上。
-9. 控制器层统一的异常拦截机制,利用@ControllerAdvice统一对异常拦截,具体见com.stylefeng.guns.core.aop.GlobalExceptionHandler类。
+9. 控制器层统一的异常拦截机制,利用@ControllerAdvice统一对异常拦截,具体见com.gaowh.scaffold.core.aop.GlobalExceptionHandler类。
 10. 页面统一的js key-value单例模式写法，每个页面生成一个唯一的全局变量，提高js的利用效率，并且有效防止多个人员开发引起的函数名/类名冲突，并且可以更好地去维护代码。
 
 ##基于javabean方式的spring配置
-Guns以简洁为核心,抛弃了传统的易错,臃肿xml配置,采用javabean的方式配置spring,简化了项目的配置,如下示例为配置mybatis-plus和数据源:
+scaffold以简洁为核心,抛弃了传统的易错,臃肿xml配置,采用javabean的方式配置spring,简化了项目的配置,如下示例为配置mybatis-plus和数据源:
 ```
 @Configuration
-@MapperScan(basePackages = {"com.stylefeng.guns.modular.*.dao", "com.stylefeng.guns.common.persistence.dao"})
+@MapperScan(basePackages = {"com.gaowh.scaffold.modular.*.dao", "com.gaowh.scaffold.common.persistence.dao"})
 public class MybatisPlusConfig {
 
     @Autowired
@@ -237,7 +233,7 @@ public class MybatisPlusConfig {
 在webapp/static/js/common目录中，有对常用js代码的封装，例如Feng.js,其中Feng.info(),Feng.success(),Feng.error()三个方法，分别封装了普通提示，成功提示，错误提示的代码，简化了layer提示层插件的使用。
 
 ##极简的图片上传方法
-guns对web-upload进行二次封装,让图片的上传功能呢只用2行代码即可实现,如下
+scaffold对web-upload进行二次封装,让图片的上传功能呢只用2行代码即可实现,如下
 ```
 var avatarUp = new $WebUpload("avatar");
 avatarUp.init();

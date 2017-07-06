@@ -2,8 +2,8 @@
 ##################  所有profile共有的配置  #################
 ##########################################################
 
-###################  guns配置  ###################
-guns:
+###################  scaffold配置  ###################
+scaffold:
   swagger-open: true #是否开启swagger (true/false)
   kaptcha-open: false #是否开启登录时验证码 (true/false)
   session-open: false #是否开启session验证 (true/false)
@@ -38,8 +38,8 @@ spring:
 
 ###################  mybatis-plus配置  ###################
 mybatis-plus:
-  mapper-locations: classpath*:com/stylefeng/guns/**/mapping/*.xml
-  typeAliasesPackage: com.stylefeng.guns.common.persistence.model
+  mapper-locations: classpath*:com/gaowh/scaffold/**/mapping/*.xml
+  typeAliasesPackage: com.gaowh.scaffold.common.persistence.model
   global-config:
     id-type: 0  #0:数据库ID自增   1:用户输入id  2:全局唯一id(IdWorker)  3:全局唯一ID(uuid)
     db-column-underline: false
@@ -59,7 +59,7 @@ mybatis-plus:
 spring:
   profiles: dev
   datasource:
-      url: jdbc:mysql://127.0.0.1:3306/guns?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+      url: jdbc:mysql://127.0.0.1:3306/scaffold?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
       username: root
       password:
       filters: log4j,wall,mergeStat
@@ -73,7 +73,7 @@ biz:
 
 logging:
   level: debug
-  file: logs/guns.log
+  file: logs/scaffold.log
 
 ---
 
@@ -83,12 +83,12 @@ logging:
 spring:
   profiles: produce
   datasource:
-      url: jdbc:mysql://127.0.0.1:3306/guns?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+      url: jdbc:mysql://127.0.0.1:3306/scaffold?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
       username: root
       password:
       filters: log4j,wall,mergeStat
 
 logging:
   level: warn
-  file: logs/guns.log
+  file: logs/scaffold.log
 
