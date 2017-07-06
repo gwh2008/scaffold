@@ -1,246 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43fbc54d-0ec8-4ed2-95a4-1868000f9dd6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/gaowh/scaffold/template/TemplateGenerator.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/guns.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/GunsServletInitializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/annotion/DataSource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/constant/Cst.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/constant/cache/Cache.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/constant/cache/CacheKey.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/constant/dictmap/DictMap.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/constant/dictmap/EDrivingMap.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/constant/dictmap/LogDict.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/constant/dictmap/NoticeMap.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/constant/dictmap/RoleDict.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/constant/dictmap/UserDict.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/constant/dictmap/factory/DictFieldWarpperFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/constant/dictmap/factory/DictMapFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/constant/state/BizLogType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/constant/state/IsMenu.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/constant/tips/ErrorTip.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/controller/BaseController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/controller/GunsErrorView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/exception/BussinessException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/exception/InvalidKaptchaException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/exception/ToolBoxException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/node/MenuNode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/page/PageBT.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/page/PageInfoBT.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/persistence/dao/DeptMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/persistence/dao/DictMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/persistence/dao/EDrivingMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/persistence/dao/LoginLogMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/persistence/dao/MenuMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/persistence/dao/OperationLogMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/persistence/dao/RelationMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/persistence/dao/RoleMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/persistence/dao/UserMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/persistence/dao/mapping/DeptMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/persistence/dao/mapping/MenuMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/persistence/dao/mapping/RoleMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/persistence/model/Dept.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/persistence/model/Dict.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/persistence/model/EDriving.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/persistence/model/Menu.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/persistence/model/OperationLog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/persistence/model/Relation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/persistence/model/Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/persistence/model/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/common/warpper/BaseControllerWarpper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/config/FastjsonConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/config/MybatisPlusConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/config/properties/DruidProperties.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/config/web/BeetlConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/aop/GlobalExceptionHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/aop/MultiSourceExAop.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/aop/PermissionAop.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/beetl/BeetlConfiguration.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/beetl/ShiroExt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/cache/CacheKit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/cache/ILoader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/db/Db.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/intercept/SessionInterceptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/intercept/SessionTimeoutInterceptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/log/factory/LogFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/mutidatesource/DataSourceContextHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/mutidatesource/DynamicDataSource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/shiro/ShiroKit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/shiro/check/PermissionCheckFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/shiro/check/PermissionCheckManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/shiro/factory/IShiro.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/support/BeanKit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/support/DateTimeKit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/support/HexKit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/support/PageKit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/support/StrKit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/support/WafRequestWrapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/template/config/DaoConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/template/config/PageConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/template/config/ServiceConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/template/engine/SimpleTemplateEngine.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/template/engine/base/GunsTemplateEngine.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/util/Contrast.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/util/Convert.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/util/HttpSessionHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/util/MD5Util.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/util/NumUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/util/ResKit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/util/ToolUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/util/qr/ImgQrTool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/util/qr/MatrixToImageConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/util/qr/MatrixToImageWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/util/qr/QrImage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/core/util/xss/XssFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/biz/service/ITestService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/biz/service/impl/TestServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/eDriving/dao/mapping/EDrivingDao.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/eDriving/service/IEDrivingService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/controller/DictController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/controller/KaptchaController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/controller/LogController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/controller/LoginController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/controller/MenuController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/controller/NoticeController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/controller/RoleController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/controller/TestSwaggerController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/dao/DeptDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/dao/DictDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/dao/NoticeDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/DictDao.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/LogDao.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/MenuDao.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/NoticeDao.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/RoleDao.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/UserMgrDao.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/factory/UserFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/service/IMenuService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/service/IRoleService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/service/impl/RoleServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/transfer/UserDto.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/warpper/DeptWarpper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/warpper/EDrivingWrapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/warpper/NoticeWrapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/guns/modular/system/warpper/RoleWarpper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/GunsApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/annotion/Permission.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/annotion/log/BussinessLog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/constant/Const.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/constant/DSEnum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/constant/Dict.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/constant/dictmap/DeleteDict.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/constant/dictmap/DeptDict.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/constant/dictmap/MenuDict.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/constant/dictmap/base/AbstractDictMap.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/constant/dictmap/base/SystemDict.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/constant/factory/ConstantFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/constant/factory/IConstantFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/constant/factory/MutiStrFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/constant/factory/PageFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/constant/state/LogSucceed.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/constant/state/LogType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/constant/state/ManagerStatus.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/constant/state/MenuOpenStatus.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/constant/state/MenuStatus.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/constant/state/Order.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/constant/tips/SuccessTip.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/constant/tips/Tip.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/controller/GlobalController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/exception/BizExceptionEnum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/node/ZTreeNode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/persistence/dao/NoticeMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/persistence/dao/TestMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/persistence/dao/mapping/DictMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/persistence/dao/mapping/EDrivingMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/persistence/dao/mapping/LoginLogMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/persistence/dao/mapping/NoticeMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/persistence/dao/mapping/OperationLogMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/persistence/dao/mapping/RelationMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/persistence/dao/mapping/TestMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/persistence/dao/mapping/UserMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/persistence/model/LoginLog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/persistence/model/Notice.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/common/persistence/model/Role.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/config/EhCacheConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/config/SwaggerConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/config/properties/BeetlProperties.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/config/properties/GunsProperties.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/config/properties/MutiDataSourceProperties.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/config/web/ShiroConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/config/web/WebConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/aop/LogAop.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/cache/BaseCacheFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/cache/EhcacheFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/cache/ICache.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/listener/ConfigListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/log/LogManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/log/LogObjectHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/log/factory/LogTaskFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/shiro/ShiroDbRealm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/shiro/ShiroUser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/shiro/check/ICheck.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/shiro/factory/ShiroFactroy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/support/BasicType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/support/ClassKit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/support/CollectionKit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/support/DateTime.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/support/HttpKit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/support/ObjectKit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/support/WafKit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/template/config/ContextConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/template/config/ControllerConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/template/engine/base/AbstractTemplateEngine.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/util/DateUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/util/FileUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/util/PingYinUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/util/SpringContextHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/util/SqlUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/core/util/xss/XssHttpServletRequestWrapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/modular/eDriving/controller/EDrivingController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/modular/eDriving/dao/EDrivingDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/modular/eDriving/service/impl/EDrivingServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/modular/system/controller/BlackboardController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/modular/system/controller/CodeController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/modular/system/controller/DeptController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/modular/system/controller/LoginLogController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/modular/system/controller/UserMgrController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/modular/system/dao/LogDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/modular/system/dao/MenuDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/modular/system/dao/RoleDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/modular/system/dao/UserMgrDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/modular/system/dao/mapping/DeptDao.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/modular/system/service/IDictService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/modular/system/service/impl/DictServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/modular/system/service/impl/MenuServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/modular/system/transfer/ManagerUser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/modular/system/transfer/ReqAddManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/modular/system/transfer/ReqEditManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/modular/system/warpper/DictWarpper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/modular/system/warpper/LogWarpper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/modular/system/warpper/MenuWarpper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stylefeng/scaffold/modular/system/warpper/UserWarpper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/stylefeng/guns/template/TemplateGenerator.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/img/girl.gif" afterPath="$PROJECT_DIR$/src/main/webapp/static/img/girl.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/img/profile_small.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/img/profile_small.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/generator/MyBatisPlusGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/generator/MyBatisPlusGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/404.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/_right.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/common/_right.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/code/code.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/system/code/code.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/stylefeng/guns/base/BaseJunit.java" afterPath="$PROJECT_DIR$/src/test/java/com/gaowh/scaffold/base/BaseJunit.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/stylefeng/guns/biz/BizTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/gaowh/scaffold/biz/BizTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/stylefeng/guns/shiro/Base64Test.java" afterPath="$PROJECT_DIR$/src/test/java/com/gaowh/scaffold/shiro/Base64Test.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/stylefeng/guns/system/BlackBoardTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/gaowh/scaffold/system/BlackBoardTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/stylefeng/guns/system/DeptTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/gaowh/scaffold/system/DeptTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/stylefeng/guns/system/DictTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/gaowh/scaffold/system/DictTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/stylefeng/guns/system/MenuTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/gaowh/scaffold/system/MenuTest.java" />
-    </list>
+    <list default="true" id="43fbc54d-0ec8-4ed2-95a4-1868000f9dd6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -277,8 +38,8 @@
       <file leaf-file-name="layim.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/layim/layim.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+            <state relative-caret-position="358">
+              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
               <folding>
                 <marker date="1498575788000" expanded="true" signature="7500:7507" ph="×" />
                 <marker date="1498575788000" expanded="true" signature="21146:21159" ph="..." />
@@ -1188,7 +949,7 @@
       <workItem from="1498799907757" duration="38170000" />
       <workItem from="1499135835461" duration="14595000" />
       <workItem from="1499308499525" duration="1025000" />
-      <workItem from="1499309891398" duration="2230000" />
+      <workItem from="1499309891398" duration="2612000" />
     </task>
     <task id="LOCAL-00001" summary="gaowh @right github">
       <created>1499048147913</created>
@@ -1220,10 +981,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56020000" />
+    <option name="totallyTimeSpent" value="56402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-10" y="0" width="1920" height="1030" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1244,7 +1006,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3699422" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3699422" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28345627" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1671,8 +1433,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/layim/layim.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        <state relative-caret-position="358">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
           <folding>
             <marker date="1498575788000" expanded="true" signature="7500:7507" ph="×" />
             <marker date="1498575788000" expanded="true" signature="21146:21159" ph="..." />
